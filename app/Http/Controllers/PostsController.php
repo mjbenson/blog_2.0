@@ -24,4 +24,10 @@ class PostsController extends Controller
         return view ('posts.create');
 
     }
+
+    public function store(){
+
+        return view ('posts.create');
+
+    }
 }

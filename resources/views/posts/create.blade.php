@@ -3,12 +3,11 @@
 @section ('content')
 
     <div class="col-sm-8 blog-main">
-        <h1>Create a post.</h1>
+        <h1>Publish a post.</h1>
 
         <hr>
 
-        <form>
-
+        <form method ="POST" action="/posts">
             <div class="form-group">
                 <label for="title">Title</label>
                 <input type="text" class="form-control" id="title" placeholder="Title" title="name">
@@ -21,7 +20,7 @@
 
             <hr>
 
-            <button type="submit" class="btn btn-default">Submit</button>
+            <button type="submit" class="btn btn-primary">Publish</button>
         </form>
     </div>
 

@@ -31,10 +31,27 @@ class PostsController extends Controller
 
 //        dd(request()->all());
 
-        $post = new Post;
-        $post->title = request('title');
-        $post->body = request('body');
-        $post->save();
+
+        //PHP
+
+//        $post = new Post;
+//        $post->title = request('title');
+//        $post->body = request('body');
+//        $post->save();
+
+        //LARAVEL
+
+        $this->validate(request(), [
+
+//            'title' => 'required|max:3',
+//            'body' => 'required|max:10'
+
+            'title' => 'required',
+            'body' => 'required'
+
+        ]);
+
+        Post::create(request(['title', 'body']));
 
         return redirect('/');
 

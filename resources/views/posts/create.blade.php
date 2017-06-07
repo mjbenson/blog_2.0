@@ -14,12 +14,12 @@
 
             <div class="form-group">
                 <label for="title">Title</label>
-                <input type="text"  id="title" name="title" class="form-control" placeholder="Title" required>
+                <input type="text"  id="title" name="title" class="form-control" placeholder="Title">
             </div>
 
             <div class="form-group">
                 <label for="body">Body</label>
-                <textarea id="body" name="body" class="form-control" placeholder="Body" required></textarea>
+                <textarea id="body" name="body" class="form-control" placeholder="Body"></textarea>
             </div>
 
             <hr>

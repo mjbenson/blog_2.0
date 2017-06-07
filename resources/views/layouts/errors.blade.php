@@ -2,11 +2,9 @@
 
     <div class ="form-group">
 
-        <div class ="alert danger-error">
+        <div class ="alert alert-danger">
 
             <ul>
-
-
 
                 @foreach ($errors->all() as $error)
 

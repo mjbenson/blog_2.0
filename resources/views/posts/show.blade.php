@@ -8,6 +8,6 @@
 
         {{ $post->body }}
 
-    </div>
+        @include('posts.comments')
 
 @endsection

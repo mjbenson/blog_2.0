@@ -8,10 +8,12 @@
 
     <p class="blog-post-meta">
 
-        {{ $post->created_at->toFormattedDateString() }}
+        {{ $post->created_at->toDayDateTimeString() }}
 
     </p>
 
     {{ $post->body }}
+
+    @include('posts.comments')
 
 </div>

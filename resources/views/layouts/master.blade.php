@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,8 +34,6 @@
     <div class = "row">
 
         @yield ('content')
-
-        @include ('layouts.sidebar')
 
     </div>
 </div>

@@ -16,7 +16,7 @@
     <link href="https://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="/css/blog.css" rel="stylesheet">
+    <link href="/css/app.css" rel="stylesheet">
 
 </head>
 
